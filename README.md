@@ -94,9 +94,12 @@ Bigsur,11.5,20g71
     - U盘引导系统进行安装
     - 如果先安装mac后安装windows,那么安装完后,设置bios引导,将opencore设置为第一个  
       ![Find.png](./tools/pic/boot.png)
-      
+- ### 5.优化
+    - 打开HWP  
+        配置机型推荐iMac19.1以及Macmini8.1后重启,使用Hackintool->工具勾选HWP后重启
     
 ### 鸣谢:
+-   [使用 OpenCore 引导黑苹果-HWP](https://blog.xjn819.com/post/opencore-guide.html)
 -   [折腾 7080MFF 黑苹果 OpenCore](https://www.jianshu.com/p/d7cfaae60509)
 -   [不刷BIOS修改AMI BIOS的方法（以CFG Lock为例）](https://www.zdynb.cn/2020/jie-suo-cfg-lock.html)
 -   [解锁CfgLock](https://www.zdynb.cn/2020/jie-suo-cfg-lock.html)
