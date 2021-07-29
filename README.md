@@ -68,7 +68,7 @@ Bigsur,11.5,20g71
         4. 解释UEFI Tool二进制成文本,工具: [Universal-IFR-Extractor](https://github.com/LongSoft/Universal-IFR-Extractor/releases) UI版本:IRFExtractor,命令行版本:ifrextract
            ![Find.png](./tools/pic/ifr.png)  
            CTRL+F搜索cfg lock
-           ![Find.png](./tools/pic/ifr txt.png)  
+           ![Find.png](tools/pic/ifr_txt.png)  
            得到结果:  
            CFG LOCK 解锁 : 0x3E 0x0  
            DVMT 修改64M位置：0xF5  0x2
