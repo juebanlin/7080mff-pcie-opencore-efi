@@ -96,7 +96,8 @@ Bigsur,11.5,20g71
       ![Find.png](./tools/pic/boot.png)
 - ### 5.优化
     - 打开HWP  
-        配置机型推荐iMac19.1以及Macmini8.1后重启,使用Hackintool->工具勾选HWP后重启
+        配置机型推荐iMac19.1以及Macmini8.1后重启,使用Hackintool->工具勾选HWP后重启  
+        ![Find.png](./tools/pic/hwp.png)
     
 ### 鸣谢:
 -   [使用 OpenCore 引导黑苹果-HWP](https://blog.xjn819.com/post/opencore-guide.html)
