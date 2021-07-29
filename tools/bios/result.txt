@@ -1,0 +1,41 @@
+0x43345 	Form: View/Configure CPU Lock Options, FormId: 0x2749 {01 86 49 27 CD 01}
+0x4334B 		One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x3E, VarStore: 0x11, QuestionId: 0x35C, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 06 04 07 04 5C 03 11 00 3E 00 10 10 00 01 00}
+0x4335C 			One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}
+0x43363 			One Of Option: Enabled, Value (8 bit): 0x1 (default) {09 07 03 00 30 00 01}
+0x4336A 		End One Of {29 02}
+
+
+
+0x4BCF9 		One Of: DVMT Pre-Allocated, VarStoreInfo (VarOffset/VarName): 0xF5, VarStore: 0x16, QuestionId: 0x274E, Size: 1, Min: 0x0, Max 0xFE, Step: 0x0 {05 91 36 06 49 06 4E 27 16 00 F5 00 10 10 00 FE 00}
+0x4BD0A 			Default: DefaultId: 0x0, Value (8 bit): 0x1 {5B 06 00 00 00 01}
+0x4BD10 			One Of Option: 0M, Value (8 bit): 0x0 {09 07 37 06 00 00 00}
+0x4BD17 			One Of Option: 32M, Value (8 bit): 0x1 {09 07 38 06 00 00 01}
+0x4BD1E 			One Of Option: 64M, Value (8 bit): 0x2 {09 07 39 06 00 00 02}
+0x4BD25 			One Of Option: 4M, Value (8 bit): 0xF0 {09 07 3A 06 00 00 F0}
+0x4BD2C 			One Of Option: 8M, Value (8 bit): 0xF1 {09 07 3B 06 00 00 F1}
+0x4BD33 			One Of Option: 12M, Value (8 bit): 0xF2 {09 07 3C 06 00 00 F2}
+0x4BD3A 			One Of Option: 16M, Value (8 bit): 0xF3 {09 07 3D 06 00 00 F3}
+0x4BD41 			One Of Option: 20M, Value (8 bit): 0xF4 {09 07 3E 06 00 00 F4}
+0x4BD48 			One Of Option: 24M, Value (8 bit): 0xF5 {09 07 3F 06 00 00 F5}
+0x4BD4F 			One Of Option: 28M, Value (8 bit): 0xF6 {09 07 40 06 00 00 F6}
+0x4BD56 			One Of Option: 32M/F7, Value (8 bit): 0xF7 {09 07 41 06 00 00 F7}
+0x4BD5D 			One Of Option: 36M, Value (8 bit): 0xF8 {09 07 42 06 00 00 F8}
+0x4BD64 			One Of Option: 40M, Value (8 bit): 0xF9 {09 07 43 06 00 00 F9}
+0x4BD6B 			One Of Option: 44M, Value (8 bit): 0xFA {09 07 44 06 00 00 FA}
+0x4BD72 			One Of Option: 48M, Value (8 bit): 0xFB {09 07 45 06 00 00 FB}
+0x4BD79 			One Of Option: 52M, Value (8 bit): 0xFC {09 07 46 06 00 00 FC}
+0x4BD80 			One Of Option: 56M, Value (8 bit): 0xFD {09 07 47 06 00 00 FD}
+0x4BD87 			One Of Option: 60M, Value (8 bit): 0xFE {09 07 48 06 00 00 FE}
+0x4BD8E 		End One Of {29 02}
+0x4BD90 		One Of: DVMT Total Gfx Mem, VarStoreInfo (VarOffset/VarName): 0xF6, VarStore: 0x16, QuestionId: 0x615, Size: 1, Min: 0x1, Max 0x3, Step: 0x0 {05 91 4A 06 4B 06 15 06 16 00 F6 00 10 10 01 03 00}
+0x4BDA1 			Default: DefaultId: 0x0, Value (8 bit): 0x3 {5B 06 00 00 00 03}
+0x4BDA7 			One Of Option: 128M, Value (8 bit): 0x1 {09 07 4C 06 00 00 01}
+0x4BDAE 			One Of Option: 256M, Value (8 bit): 0x2 {09 07 4D 06 00 00 02}
+0x4BDB5 			One Of Option: MAX, Value (8 bit): 0x3 {09 07 4E 06 00 00 03}
+0x4BDBC 		End One Of {29 02}
+0x4BDBE 		One Of: Intel Graphics Pei Display Peim, VarStoreInfo (VarOffset/VarName): 0x49, VarStore: 0x16, QuestionId: 0x616, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 3A 07 3B 07 16 06 16 00 49 00 10 10 00 01 00}
+0x4BDCF 			One Of Option: Enabled, Value (8 bit): 0x1 {09 07 8F 00 00 00 01}
+0x4BDD6 			One Of Option: Disabled, Value (8 bit): 0x0 {09 07 90 00 00 00 00}
+0x4BDDD 			Default: DefaultId: 0x0, Value (8 bit): 0x0 {5B 06 00 00 00 00}
+0x4BDE3 			Default: DefaultId: 0x1, Value (8 bit): 0x0 {5B 06 01 00 00 00}
+0x4BDE9 		End One Of {29 02}
