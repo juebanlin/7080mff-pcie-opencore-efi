@@ -220,7 +220,15 @@ platforms
 2组:
     0:  20 10 01 01 线路输出    27->3
 ```
-
+# platforms说明
+<key>MuteInputAmp</key> '静音是否可用
+<false/> '可用
+<key>PublishMute</key> '是否显示静音
+<true/> '显示
+<key>PublishVolume</key> '是否显示音量调节
+<true/> '显示
+<key>VolumeInputAmp</key> '音量调节是否可用
+<false/> '可用
 # 根据路径和configData配置layout
 
 耳机优先级一定要低于内置扬声器，外置麦克风一定要低于内置麦克风，默认开启的是内置扬声器和麦克风，第四组数据把耳机设置为0，既插入检测。这样就可以实现自动切换了。
