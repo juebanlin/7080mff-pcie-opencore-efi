@@ -1,0 +1,33 @@
+
+Verbs from Linux Codec Dump File: ubuntu20.1/card0/codec#0
+
+Codec: Realtek ALC3246   Address: 0   DevID: 283902550 (0x10ec0256)
+
+   Jack   Color  Description                  Node     PinDefault             Original Verbs
+--------------------------------------------------------------------------------------------------------
+Unknown Unknown  Line Out at Ext N/A         18 0x12   0x40000000   01271c00 01271d00 01271e00 01271f40
+    1/8   Black  Speaker at Ext Rear         19 0x13   0x411111f0   01371cf0 01371d11 01371e11 01371f41
+ Analog Unknown  Speaker at Int N/A          20 0x14   0x90170110   01471c10 01471d01 01471e17 01471f90
+    1/8   Black  Speaker at Ext Rear         24 0x18   0x411111f0   01871cf0 01871d11 01871e11 01871f41
+    1/8   Black  Speaker at Ext Rear         25 0x19   0x411111f0   01971cf0 01971d11 01971e11 01971f41
+    1/8   Black  Speaker at Ext Rear         26 0x1a   0x411111f0   01a71cf0 01a71d11 01a71e11 01a71f41
+ Line Out at Ext Rear    0x1b 0x1b                        16846880 01b71c20 01b71d10     01b71e01 01b71f01  
+    RCA UNKNOWN  SPDIF Out at Ext N/A        29 0x1d   0x4044c029   01d71c29 01d71dc0 01d71e44 01d71f40
+    1/4   Black  Speaker at Ext Front        30 0x1e   0x421215f2   01e71cf2 01e71d15 01e71e12 01e71f42
+    1/8   Black  HP Out at Ext Front         33 0x21   0x0221101f   02171c1f 02171d10 02171e21 02171f02
+--------------------------------------------------------------------------------------------------------
+
+
+   Jack   Color  Description                  Node     PinDefault             Modified Verbs
+--------------------------------------------------------------------------------------------------------
+Unknown Unknown  Line Out at Ext N/A         18 0x12   0x40000000   01271c00 01271d00 01271e00 01271f40
+ Analog Unknown  Speaker at Int N/A          20 0x14   0x90170110   01471c30 01471d00 01471e17 01471f90
+ Line Out at Ext Rear    0x1b 0x1b                        16846880 01b71c20 01b71d10     01b71e01 01b71f01  
+    RCA UNKNOWN  SPDIF Out at Ext N/A        29 0x1d   0x4044c029   01d71c40 01d71dc0 01d71e44 01d71f40
+    1/4   Black  Speaker at Ext Front        30 0x1e   0x421215f2   01e71cf0 01e71d10 01e71e12 01e71f41
+    1/8   Black  HP Out at Ext Front         33 0x21   0x0221101f   02171c50 02171d10 02171e21 02171f01
+--------------------------------------------------------------------------------------------------------
+
+Modified Verbs in One Line: 01271c00 01271d00 01271e00 01271f40 01471c30 01471d00 01471e17 01471f90 01b71c20 01b71d10 01b71e01 01b71f01 01d71c40 01d71dc0 01d71e44 01d71f40 01e71cf0 01e71d10 01e71e12 01e71f41 02171c50 02171d10 02171e21 02171f01
+--------------------------------------------------------------------------------------------------------
+
