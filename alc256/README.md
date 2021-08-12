@@ -221,6 +221,19 @@ platforms
     0:  20 10 01 01 线路输出    27->3
 ```
 # platforms说明
+```
+patchmap里面的AMP设置。
+channel中，Bind代表声音通道，值有0、1、2，
+0：单声道
+1：左声道
+2：右声道
+Channel代表多声道中的声道，值为：1、2、3、4、5、6
+1：后左（双声道中代表左声道）
+2：后右（双声道中代表右声道）
+3：中置
+4：重音
+5：前左
+6：前右
 <key>MuteInputAmp</key> '静音是否可用
 <false/> '可用
 <key>PublishMute</key> '是否显示静音
@@ -229,7 +242,10 @@ platforms
 <true/> '显示
 <key>VolumeInputAmp</key> '音量调节是否可用
 <false/> '可用
-# 根据路径和configData配置layout
+```  
+
+# 根据路径和configData配置layout  
+
 
 耳机优先级一定要低于内置扬声器，外置麦克风一定要低于内置麦克风，默认开启的是内置扬声器和麦克风，第四组数据把耳机设置为0，既插入检测。这样就可以实现自动切换了。
 #Platforms
@@ -257,6 +273,9 @@ codec中vref表示的是十进制，计算时转为16进制。如：在节点 0x
 vref值.png
 由于外置mic需要通过linein实现，因此修改linein中的muteGPIO为838926360
 
+
+
+#其它
 根据一楼的介绍排列成如下形式
 01271C⑦⑧ 01271D⑤⑥ 01271E③④ 01271F①②
 01471C⑦⑧ 01471D⑤⑥ 01471E③④ 01471F①②
@@ -267,6 +286,7 @@ vref值.png
 01470C02
 
 codec内有EAPD字样的，必须在configdata最后加入一组01470C02
+
 
 
 三。修改①-⑧的数值
