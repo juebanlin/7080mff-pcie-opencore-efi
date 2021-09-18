@@ -27,7 +27,7 @@ Bigsur,11.5,20g71
 |WiFi               | ok |
 |Bluetooth          | ok |
 |DP Audio           | ok |
-|Sound              | 偶儿卡顿,破音(id21和67都不行) |
+|Sound              | ok(无独显)|
 
 - ### 1.设置 BIOS
 
